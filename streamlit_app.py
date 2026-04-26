@@ -1,10 +1,12 @@
 import sys
 from pathlib import Path
 
-# Add phases directory to path
-sys.path.insert(0, str(Path(__file__).parent / "phases" / "phase-9-streamlit-deployment"))
+# Add project root to path
+ROOT = Path(__file__).resolve().parent
+sys.path.insert(0, str(ROOT))
 
-from app import main
+# Import from phase-9 app
+from phases.phase_9_streamlit_deployment.app import main
 
 if __name__ == "__main__":
     main()

@@ -2,15 +2,20 @@ import sys
 import os
 from pathlib import Path
 
-# Add parent directory to path to import app modules
+# Add project root to path to import app modules
+# This works both locally and on Streamlit Cloud
 ROOT = Path(__file__).resolve().parents[2]
-sys.path.insert(0, str(ROOT))
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
 
 import streamlit as st
 from dotenv import load_dotenv
 
 # Load environment variables
-load_dotenv(ROOT / ".env")
+# Try .env first, then Streamlit secrets
+env_path = ROOT / ".env"
+if env_path.exists():
+    load_dotenv(env_path)
 
 from app.data_loader import load_restaurants_df
 from app.filter_engine import filter_candidates
