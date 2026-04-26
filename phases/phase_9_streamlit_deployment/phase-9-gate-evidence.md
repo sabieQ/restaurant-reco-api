@@ -1,7 +1,7 @@
 # Phase 9 Gate Evidence
 
 Date: 2026-04-26  
-Phase Folder: `phases/phase-9-streamlit-deployment`
+Phase Folder: `phases/phase_9_streamlit_deployment`
 
 ## P0 Checklist Evidence
 
@@ -11,7 +11,7 @@ Phase Folder: `phases/phase-9-streamlit-deployment`
   - Streamlit runs logic server-side
   - Secrets loaded via environment variables or Streamlit secrets
   - No API keys sent to browser
-  - Source: `phases/phase-9-streamlit-deployment/app.py` lines 12-14
+  - Source: `phases/phase_9_streamlit_deployment/app.py` lines 12-14
 
 ### 2) Empty states handled with clear messages
 - Result: PASS
@@ -19,7 +19,7 @@ Phase Folder: `phases/phase-9-streamlit-deployment`
   - Error message when no candidates found after filtering
   - Warning when LLM ranking fails
   - Error messages for dataset load failures
-  - Source: `phases/phase-9-streamlit-deployment/app.py` lines 163-165, 214-216, 272-274
+  - Source: `phases/phase_9_streamlit_deployment/app.py` lines 163-165, 214-216, 272-274
 
 ### 3) LLM fallback triggers deterministic ranking
 - Result: PASS
@@ -27,7 +27,7 @@ Phase Folder: `phases/phase-9-streamlit-deployment`
   - LLM ranking wrapped in try-catch
   - Fallback to deterministic ranking on failure
   - Explanation indicates deterministic selection
-  - Source: `phases/phase-9-streamlit-deployment/app.py` lines 196-225
+  - Source: `phases/phase_9_streamlit_deployment/app.py` lines 196-225
 
 ### 4) Dataset load failures caught and displayed
 - Result: PASS
@@ -35,7 +35,7 @@ Phase Folder: `phases/phase-9-streamlit-deployment`
   - Dataset load wrapped in try-catch
   - Error displayed to user with details
   - Fallback to hardcoded location/cuisine lists if load fails
-  - Source: `phases/phase-9-streamlit-deployment/app.py` lines 45-52
+  - Source: `phases/phase_9_streamlit_deployment/app.py` lines 45-52
 
 ## Edge-case-checklist run
 

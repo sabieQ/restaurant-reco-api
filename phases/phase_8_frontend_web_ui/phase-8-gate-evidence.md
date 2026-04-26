@@ -1,7 +1,7 @@
 # Phase 8 Gate Evidence
 
 Date: 2026-04-26  
-Phase Folder: `phases/phase-8-frontend-web-ui`
+Phase Folder: `phases/phase_8_frontend_web_ui`
 
 ## P0 Checklist Evidence
 

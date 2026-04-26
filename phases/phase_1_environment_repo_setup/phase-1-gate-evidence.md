@@ -1,7 +1,7 @@
 # Phase 1 Gate Evidence
 
 Date: 2026-04-20  
-Phase Folder: `phases/phase-1-environment-repo-setup`
+Phase Folder: `phases/phase_1_environment_repo_setup`
 
 ## P0 Checklist Evidence
 

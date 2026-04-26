@@ -1,7 +1,7 @@
 # Phase 0 Gate Evidence
 
 Date: 2026-04-20  
-Phase Folder: `phases/phase-0-alignment-scope-lock`
+Phase Folder: `phases/phase_0_alignment_scope_lock`
 
 ## Checklist Evidence
 

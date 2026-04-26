@@ -1,7 +1,7 @@
 # Phase 5 Gate Evidence
 
 Date: 2026-04-26  
-Phase Folder: `phases/phase-5-llm-ranking-frontend`
+Phase Folder: `phases/phase_5_llm_ranking_frontend`
 
 ## P0 Checklist Evidence
 

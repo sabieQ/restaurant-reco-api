@@ -1,7 +1,7 @@
 # Phase 2 Gate Evidence
 
 Date: 2026-04-21  
-Phase Folder: `phases/phase-2-data-ingestion-profiling`
+Phase Folder: `phases/phase_2_data_ingestion_profiling`
 
 ## P0 Checklist Evidence
 

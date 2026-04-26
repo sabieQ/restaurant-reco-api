@@ -1,7 +1,7 @@
 # Phase 3 Gate Evidence
 
 Date: 2026-04-21  
-Phase Folder: `phases/phase-3-data-cleaning-normalization`
+Phase Folder: `phases/phase_3_data_cleaning_normalization`
 
 ## P0 Checklist Evidence
 

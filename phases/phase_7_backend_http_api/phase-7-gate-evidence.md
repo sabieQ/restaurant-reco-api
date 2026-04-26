@@ -1,7 +1,7 @@
 # Phase 7 Gate Evidence
 
 Date: 2026-04-26  
-Phase Folder: `phases/phase-7-backend-http-api`
+Phase Folder: `phases/phase_7_backend_http_api`
 
 ## P0 Checklist Evidence
 

@@ -21,7 +21,7 @@ Python 3.11 + FastAPI backend with Next.js frontend for AI-assisted restaurant r
 
 ## Phase Execution Structure
 - Each implementation phase is executed in its own folder under `phases/`.
-- Phase 0 artifacts live at `phases/phase-0-alignment-scope-lock/`.
+- Phase 0 artifacts live at `phases/phase_0_alignment_scope_lock/`.
 - See `phase-architecture.md` for complete phase documentation.
 
 ## Setup

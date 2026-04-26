@@ -1,7 +1,7 @@
 # Phase 10 Gate Evidence
 
 Date: 2026-04-26  
-Phase Folder: `phases/phase-10-hardening-handoff`
+Phase Folder: `phases/phase_10_hardening_handoff`
 
 ## P0 Checklist Evidence
 

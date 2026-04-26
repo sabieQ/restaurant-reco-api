@@ -1,7 +1,7 @@
 # Phase 6 Gate Evidence
 
 Date: 2026-04-26  
-Phase Folder: `phases/phase-6-api-and-output-layer`
+Phase Folder: `phases/phase_6_api_and_output_layer`
 
 ## P0 Checklist Evidence
 

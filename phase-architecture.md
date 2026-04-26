@@ -8,31 +8,31 @@ This document outlines the complete phase architecture for the Restaurant Recomm
 - **Concern**: Define MVP scope, acceptance criteria, and success metrics
 - **Approach**: Freeze success metrics, fallback behavior, top-N contract, location granularity policy, explanation style policy
 - **Status**: ✅ Completed
-- **Evidence**: `phases/phase-0-alignment-scope-lock/`
+- **Evidence**: `phases/phase_0_alignment_scope_lock/`
 
 ### Phase 1 — Environment and Repo Setup
 - **Concern**: Pin Python 3.11 runtime, create virtual environment, install dependencies, configure secrets
 - **Approach**: Environment setup with secure handling of API keys via environment variables
 - **Status**: ✅ Completed
-- **Evidence**: `phases/phase-1-environment-repo-setup/`
+- **Evidence**: `phases/phase_1_environment_repo_setup/`
 
 ### Phase 2 — Data Ingestion and Profiling
 - **Concern**: Validate dataset accessibility, detect schema drift, generate profiling report
 - **Approach**: Load Zomato dataset from Hugging Face, validate schema, profile data distribution
 - **Status**: ✅ Completed
-- **Evidence**: `phases/phase-2-data-ingestion-profiling/`
+- **Evidence**: `phases/phase_2_data_ingestion_profiling/`
 
 ### Phase 3 — Data Cleaning and Normalization
 - **Concern**: Standardize restaurant records, ensure cleaning does not over-drop valid rows
 - **Approach**: Normalize text fields, parse ratings and costs, filter invalid entries, deduplicate
 - **Status**: ✅ Completed
-- **Evidence**: `phases/phase-3-data-cleaning-normalization/`
+- **Evidence**: `phases/phase_3_data_cleaning_normalization/`
 
 ### Phase 4 — Preference Filtering Engine
 - **Concern**: Validate deterministic filtering behavior and fallback sequencing
 - **Approach**: Implement strict location + strict rating + semi-strict cuisine + flexible budget with fallback
 - **Status**: ✅ Completed
-- **Evidence**: `phases/phase-4-preference-filtering-engine/`
+- **Evidence**: `phases/phase_4_preference_filtering_engine/`
 
 ### Phase 5 — LLM Ranking, Explanation, and Frontend
 - **Concern**: Implement LLM-based ranking and explanation generation, create frontend web interface
@@ -42,7 +42,7 @@ This document outlines the complete phase architecture for the Restaurant Recomm
   - React-based frontend with modern UI
   - CORS configuration for frontend-backend communication
 - **Status**: ✅ Completed
-- **Evidence**: `phases/phase-5-llm-ranking-frontend/`, `frontend/`
+- **Evidence**: `phases/phase_5_llm_ranking_frontend/`, `frontend/`
 
 ### Phase 6 — API and Output Layer
 - **Concern**: Validate API contract, exception handling, and output schema enforcement
@@ -52,7 +52,7 @@ This document outlines the complete phase architecture for the Restaurant Recomm
   - Validate CORS configuration
   - Test health endpoint availability
 - **Status**: ✅ Completed
-- **Evidence**: `phases/phase-6-api-and-output-layer/`
+- **Evidence**: `phases/phase_6_api_and_output_layer/`
 
 ## Planned Phases
 
@@ -95,7 +95,7 @@ This document outlines the complete phase architecture for the Restaurant Recomm
 - Forms with st.selectbox / st.text_input / st.slider for location, cuisines, budget, minimum rating, and additional text; st.spinner while the model runs; st.expander for raw JSON or telemetry if useful. Match empty-state copy from Phase 5 where practical.
 - **Exit criteria**: README (or a short docs/streamlit-deploy.md) documents how to run locally (streamlit run …) and how to deploy to Community Cloud (repo layout, secrets names, branch); a reviewer can open the hosted URL and complete one successful recommendation or see an intentional empty state.
 - **Status**: ✅ Completed
-- **Implementation Target**: `phases/phase-9-streamlit-deployment/` (app.py), repo root `streamlit_app.py` (Cloud entrypoint), streamlit and nest-asyncio in requirements.txt, and docs/streamlit-deploy.md.
+- **Implementation Target**: `phases/phase_9_streamlit_deployment/` (app.py), repo root `streamlit_app.py` (Cloud entrypoint), streamlit and nest-asyncio in requirements.txt, and docs/streamlit-deploy.md.
 
 ### Phase 10 — Hardening and Handoff (Optional but Recommended)
 - **Concern**: Automated tests, comprehensive documentation, cost/latency notes
@@ -106,7 +106,7 @@ This document outlines the complete phase architecture for the Restaurant Recomm
   - Cost/latency notes: candidate cap, model id, when to raise load limits, caching strategy
 - **Exit Criteria**: Complete test suite, comprehensive documentation, handoff-ready
 - **Status**: ✅ Completed
-- **Implementation Target**: Test suite in `tests/`, updated README with deployment guide, `docs/cost-latency-notes.md`
+- **Implementation Target**: Test suite in `tests/`, updated README with deployment guide, `docs/cost-latency-notes.md`, `phases/phase_10_hardening_handoff/`
 
 ## Phase Dependencies
 

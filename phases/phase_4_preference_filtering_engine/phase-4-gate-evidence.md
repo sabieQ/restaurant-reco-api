@@ -1,7 +1,7 @@
 # Phase 4 Gate Evidence
 
 Date: 2026-04-21  
-Phase Folder: `phases/phase-4-preference-filtering-engine`
+Phase Folder: `phases/phase_4_preference_filtering_engine`
 
 ## P0 Checklist Evidence
 - **Strict filters do not return empty set too often**

@@ -58,7 +58,7 @@ See `docs/streamlit-deploy.md` for detailed deployment instructions.
 
 ## Outputs
 - `phase-9-gate-evidence.md`
-- `phases/phase-9-streamlit-deployment/app.py`
+- `phases/phase_9_streamlit_deployment/app.py`
 - `streamlit_app.py` (repo root entry point)
 - `docs/streamlit-deploy.md`
 - Updated `requirements.txt` with streamlit and nest-asyncio
