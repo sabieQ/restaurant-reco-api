@@ -1,0 +1,201 @@
+restaurant_name,location,cuisine,average_cost_for_two,rating,budget_bucket,location_norm,cuisine_norm
+Jalsa,Banashankari,"North Indian, Mughlai, Chinese",800.0,4.1,low,banashankari,"north indian, mughlai, chinese"
+Spice Elephant,Banashankari,"Chinese, North Indian, Thai",800.0,4.1,low,banashankari,"chinese, north indian, thai"
+San Churro Cafe,Banashankari,"Cafe, Mexican, Italian",800.0,3.8,low,banashankari,"cafe, mexican, italian"
+Addhuri Udupi Bhojana,Banashankari,"South Indian, North Indian",300.0,3.7,low,banashankari,"south indian, north indian"
+Grand Village,Basavanagudi,"North Indian, Rajasthani",600.0,3.8,low,basavanagudi,"north indian, rajasthani"
+Timepass Dinner,Basavanagudi,North Indian,600.0,3.8,low,basavanagudi,north indian
+Rosewood International Hotel - Bar & Restaurant,Mysore Road,"North Indian, South Indian, Andhra, Chinese",800.0,3.6,low,mysore road,"north indian, south indian, andhra, chinese"
+Onesta,Banashankari,"Pizza, Cafe, Italian",600.0,4.6,low,banashankari,"pizza, cafe, italian"
+Penthouse Cafe,Banashankari,"Cafe, Italian, Continental",700.0,4.0,low,banashankari,"cafe, italian, continental"
+Smacznego,Banashankari,"Cafe, Mexican, Italian, Momos, Beverages",550.0,4.2,low,banashankari,"cafe, mexican, italian, momos, beverages"
+CafÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ© Down The Alley,Banashankari,Cafe,500.0,4.1,low,banashankari,cafe
+Cafe Shuffle,Banashankari,"Cafe, Italian, Continental",600.0,4.2,low,banashankari,"cafe, italian, continental"
+The Coffee Shack,Banashankari,"Cafe, Chinese, Continental, Italian",500.0,4.2,low,banashankari,"cafe, chinese, continental, italian"
+Caf-Eleven,Banashankari,"Cafe, Continental",450.0,4.0,low,banashankari,"cafe, continental"
+San Churro Cafe,Banashankari,"Cafe, Mexican, Italian",800.0,3.8,low,banashankari,"cafe, mexican, italian"
+Cafe Vivacity,Banashankari,Cafe,650.0,3.8,low,banashankari,cafe
+Catch-up-ino,Banashankari,"Cafe, Fast Food, Continental, Chinese, Momos",800.0,3.9,low,banashankari,"cafe, fast food, continental, chinese, momos"
+Kirthi's Biryani,Banashankari,"Chinese, Cafe, Italian",700.0,3.8,low,banashankari,"chinese, cafe, italian"
+T3H Cafe,Banashankari,"Cafe, Italian, American",300.0,3.9,low,banashankari,"cafe, italian, american"
+360 Atoms Restaurant And Cafe,Banashankari,"Cafe, Chinese, Continental, Italian",400.0,3.1,low,banashankari,"cafe, chinese, continental, italian"
+The Vintage Cafe,Banashankari,"Cafe, French, North Indian",400.0,3.0,low,banashankari,"cafe, french, north indian"
+Woodee Pizza,Banashankari,"Cafe, Pizza, Fast Food, Beverages",500.0,3.7,low,banashankari,"cafe, pizza, fast food, beverages"
+Cafe Coffee Day,Banashankari,"Cafe, Fast Food",900.0,3.6,medium,banashankari,"cafe, fast food"
+My Tea House,Banashankari,"Italian, Fast Food, Cafe, European",600.0,3.6,low,banashankari,"italian, fast food, cafe, european"
+Hide Out Cafe,Banashankari,Cafe,300.0,3.7,low,banashankari,cafe
+CAFE NOVA,Banashankari,"Cafe, Bakery",600.0,3.2,low,banashankari,"cafe, bakery"
+Coffee Tindi,Banashankari,"Cafe, South Indian",200.0,3.8,low,banashankari,"cafe, south indian"
+Sea Green Cafe,Banashankari,"Cafe, Fast Food, Beverages",500.0,3.3,low,banashankari,"cafe, fast food, beverages"
+Cuppa,Banashankari,"Cafe, Fast Food",550.0,3.3,low,banashankari,"cafe, fast food"
+Srinathji's Cafe,Basavanagudi,"North Indian, Cafe, Chinese, Fast Food",550.0,3.8,low,basavanagudi,"north indian, cafe, chinese, fast food"
+Redberrys,Basavanagudi,"Cafe, Italian",600.0,4.0,low,basavanagudi,"cafe, italian"
+Foodiction,Banashankari,"North Indian, Fast Food, Chinese, Burger",500.0,2.8,low,banashankari,"north indian, fast food, chinese, burger"
+Sweet Truth,Banashankari,"Bakery, Desserts",500.0,3.9,low,banashankari,"bakery, desserts"
+Ovenstory Pizza,Banashankari,Pizza,750.0,3.9,low,banashankari,pizza
+Faasos,Banashankari,"North Indian, Biryani, Fast Food",500.0,4.2,low,banashankari,"north indian, biryani, fast food"
+Behrouz Biryani,Banashankari,Biryani,650.0,3.9,low,banashankari,biryani
+Fast And Fresh,Banashankari,"North Indian, Chinese, Fast Food",400.0,2.8,low,banashankari,"north indian, chinese, fast food"
+Szechuan Dragon,Banashankari,"Chinese, Thai, Momos",600.0,4.2,low,banashankari,"chinese, thai, momos"
+Empire Restaurant,Jayanagar,"North Indian, Mughlai, South Indian, Chinese",750.0,4.4,low,jayanagar,"north indian, mughlai, south indian, chinese"
+Maruthi Davangere Benne Dosa,Banashankari,South Indian,150.0,4.0,low,banashankari,south indian
+Chaatimes,Basavanagudi,"Street Food, Fast Food",200.0,3.8,low,basavanagudi,"street food, fast food"
+Havyaka Mess,Banashankari,South Indian,300.0,3.9,low,banashankari,south indian
+McDonald's,Banashankari,"Burger, Fast Food",500.0,3.9,low,banashankari,"burger, fast food"
+Domino's Pizza,Banashankari,"Pizza, Fast Food",800.0,3.9,low,banashankari,"pizza, fast food"
+Onesta,Banashankari,"Pizza, Cafe, Italian",600.0,4.6,low,banashankari,"pizza, cafe, italian"
+Hotboxit,Banashankari,"North Indian, Continental, Italian",400.0,3.8,low,banashankari,"north indian, continental, italian"
+Kitchen Garden,Kumaraswamy Layout,"North Indian, Chinese",300.0,3.6,low,kumaraswamy layout,"north indian, chinese"
+Recipe,Kumaraswamy Layout,"North Indian, Chinese, Biryani, Rolls",450.0,4.0,low,kumaraswamy layout,"north indian, chinese, biryani, rolls"
+Beijing Bites,Rajarajeshwari Nagar,"Chinese, Thai",850.0,3.7,medium,rajarajeshwari nagar,"chinese, thai"
+Tasty Bytes,Kumaraswamy Layout,"North Indian, Chinese, Momos, Rolls",300.0,3.1,low,kumaraswamy layout,"north indian, chinese, momos, rolls"
+Petoo,Banashankari,North Indian,450.0,3.7,low,banashankari,north indian
+Shree Cool Point,Vijay Nagar,"Fast Food, Street Food, Beverages",150.0,4.1,low,vijay nagar,"fast food, street food, beverages"
+Corner House Ice Cream,Banashankari,"Ice Cream, Desserts",400.0,4.3,low,banashankari,"ice cream, desserts"
+Biryanis And More,Jayanagar,"Biryani, North Indian, Chinese, Andhra, South Indian",750.0,4.0,low,jayanagar,"biryani, north indian, chinese, andhra, south indian"
+Roving Feast,Banashankari,"Italian, Continental, Fast Food, Chinese, Momos",450.0,4.0,low,banashankari,"italian, continental, fast food, chinese, momos"
+FreshMenu,Banashankari,"Healthy Food, Chinese, Biryani, North Indian, Continental, Salad, American, Burger",450.0,3.9,low,banashankari,"healthy food, chinese, biryani, north indian, continental, salad, american, burger"
+Banashankari Donne Biriyani,Banashankari,"Biryani, Fast Food",300.0,3.8,low,banashankari,"biryani, fast food"
+Wamama,Banashankari,"Asian, Korean, Indonesian, Japanese, Chinese, Thai, Momos",800.0,4.2,low,banashankari,"asian, korean, indonesian, japanese, chinese, thai, momos"
+Five Star Chicken,Banashankari,"Fast Food, Burger",200.0,3.6,low,banashankari,"fast food, burger"
+XO Belgian Waffle,Banashankari,"Desserts, Beverages",400.0,3.7,low,banashankari,"desserts, beverages"
+Peppy Peppers,Banashankari,"Italian, North Indian, Mexican",800.0,4.2,low,banashankari,"italian, north indian, mexican"
+Goa 0 Km,Kumaraswamy Layout,"Goan, Seafood, North Indian, Chinese, Biryani",800.0,3.6,low,kumaraswamy layout,"goan, seafood, north indian, chinese, biryani"
+Chinese Kitchen,Basavanagudi,Chinese,150.0,3.8,low,basavanagudi,chinese
+1947,Banashankari,"North Indian, Chinese",850.0,4.0,medium,banashankari,"north indian, chinese"
+Cake of the Day,Banashankari,Bakery,150.0,3.7,low,banashankari,bakery
+Kabab Magic,Basavanagudi,"North Indian, Kebab, Chinese, Fast Food",400.0,4.1,low,basavanagudi,"north indian, kebab, chinese, fast food"
+Namma Brahmin's Idli,Jayanagar,South Indian,100.0,3.6,low,jayanagar,south indian
+Gustoes Beer House,Banashankari,"Continental, Italian, Mexican, North Indian, Chinese, Steak",1200.0,4.1,medium,banashankari,"continental, italian, mexican, north indian, chinese, steak"
+Sugar Rush,Banashankari,"Bakery, Desserts",300.0,3.8,low,banashankari,"bakery, desserts"
+Burger King,Basavanagudi,"Burger, Fast Food, Beverages",600.0,3.2,low,basavanagudi,"burger, fast food, beverages"
+The Good Bowl,Banashankari,"Italian, North Indian, Biryani",500.0,3.6,low,banashankari,"italian, north indian, biryani"
+The Biryani Cafe,Banashankari,"Biryani, Chinese, Kebab",300.0,4.1,low,banashankari,"biryani, chinese, kebab"
+Spicy Tandoor,Banashankari,North Indian,150.0,,low,banashankari,north indian
+LSD Cafe,Banashankari,"Chinese, Continental, Italian, North Indian",700.0,2.9,low,banashankari,"chinese, continental, italian, north indian"
+Rolls On Wheels,Banashankari,"Fast Food, Rolls, Momos",300.0,3.6,low,banashankari,"fast food, rolls, momos"
+Om Sri Vinayaka Chats,Banashankari,"Street Food, Fast Food",500.0,,low,banashankari,"street food, fast food"
+Sri Guru Kottureshwara Davangere Benne Dosa,Basavanagudi,South Indian,150.0,4.1,low,basavanagudi,south indian
+Devanna Dum Biriyani Centre,Banashankari,"Biryani, South Indian",300.0,3.6,low,banashankari,"biryani, south indian"
+Kolbeh,Banashankari,Fast Food,500.0,3.7,low,banashankari,fast food
+Upahar Sagar,Banashankari,"South Indian, Chinese, North Indian",350.0,3.8,low,banashankari,"south indian, chinese, north indian"
+Kadalu Sea Food Restaurant,Vijay Nagar,"Seafood, North Indian, Chinese, Andhra, Biryani, Kebab",500.0,3.8,low,vijay nagar,"seafood, north indian, chinese, andhra, biryani, kebab"
+Frozen Bottle,Banashankari,"Beverages, Desserts, Ice Cream",400.0,4.2,low,banashankari,"beverages, desserts, ice cream"
+Parimala Sweets,Banashankari,"Mithai, Street Food",200.0,3.5,low,banashankari,"mithai, street food"
+Vaishali Deluxe,Banashankari,"North Indian, Chinese",700.0,3.8,low,banashankari,"north indian, chinese"
+Chill Out,Banashankari,"South Indian, Chinese",100.0,,low,banashankari,"south indian, chinese"
+The Big O Bakes,Banashankari,"Bakery, Desserts",300.0,4.0,low,banashankari,"bakery, desserts"
+Meghana Foods,Jayanagar,"Biryani, North Indian, Chinese",600.0,4.4,low,jayanagar,"biryani, north indian, chinese"
+Krishna Sagar,Banashankari,North Indian,200.0,3.5,low,banashankari,north indian
+Dessert Rose,Banashankari,Desserts,500.0,3.5,low,banashankari,desserts
+Chickpet Donne Biryani House,Banashankari,Biryani,250.0,3.7,low,banashankari,biryani
+Me And My Cake,Banashankari,"Bakery, Desserts",500.0,,low,banashankari,"bakery, desserts"
+Sunsadm,Banashankari,South Indian,400.0,,low,banashankari,south indian
+Annapooraneshwari Mess,Banashankari,South Indian,200.0,,low,banashankari,south indian
+Thanco's Natural Ice Creams,Banashankari,Ice Cream,300.0,3.2,low,banashankari,ice cream
+Nandhini Deluxe,Banashankari,North Indian,600.0,2.6,low,banashankari,north indian
+Vi Ra's Bar and Restaurant,Banashankari,"South Indian, North Indian, Chinese",800.0,3.3,low,banashankari,"south indian, north indian, chinese"
+Kaggis,Banashankari,"Fast Food, Bakery",250.0,3.8,low,banashankari,"fast food, bakery"
+Ayda Persian Kitchen,Banashankari,"North Indian, Iranian",950.0,3.7,medium,banashankari,"north indian, iranian"
+Chatar Patar,Banashankari,"Fast Food, Street Food",300.0,3.7,low,banashankari,"fast food, street food"
+Polar Bear,Basavanagudi,"Ice Cream, Desserts, Beverages, Sandwich",400.0,3.8,low,basavanagudi,"ice cream, desserts, beverages, sandwich"
+Kidambi's Kitchen,Banashankari,South Indian,300.0,3.5,low,banashankari,south indian
+Mane Thindi,Banashankari,South Indian,200.0,3.7,low,banashankari,south indian
+Kotian Karavali Restaurant,Banashankari,"South Indian, Biryani",300.0,3.5,low,banashankari,"south indian, biryani"
+Floured-Baked With Love,Banashankari,Bakery,400.0,3.8,low,banashankari,bakery
+CAFE NOVA,Banashankari,"Cafe, Bakery",600.0,3.2,low,banashankari,"cafe, bakery"
+Cakes & Slices,Banashankari,"Bakery, Desserts",300.0,3.5,low,banashankari,"bakery, desserts"
+Spice 9,Banashankari,"Biryani, North Indian, Chinese, Fast Food",300.0,3.4,low,banashankari,"biryani, north indian, chinese, fast food"
+Coffee Shopee,Banashankari,Beverages,250.0,,low,banashankari,beverages
+Naveen Kabab & Biriyani Mane,Banashankari,Biryani,300.0,3.2,low,banashankari,biryani
+Katriguppe Donne Biryani,Banashankari,North Indian,300.0,3.2,low,banashankari,north indian
+Hari Super Sandwich,Banashankari,"Sandwich, Pizza, Beverages",200.0,,low,banashankari,"sandwich, pizza, beverages"
+Atithi Point Ande Ka Funda,Banashankari,North Indian,150.0,3.1,low,banashankari,north indian
+Just Bake,Banashankari,"Bakery, Desserts",400.0,3.4,low,banashankari,"bakery, desserts"
+Dharwad Line Bazaar Mishra Pedha,Banashankari,Mithai,150.0,,low,banashankari,mithai
+Cake Bite,Banashankari,Bakery,300.0,,low,banashankari,bakery
+Aarush's Food Plaza,Banashankari,"North Indian, Street Food",200.0,,low,banashankari,"north indian, street food"
+Wood Stove,Banashankari,South Indian,150.0,,low,banashankari,south indian
+Kulfi & More,Banashankari,"Ice Cream, Desserts, Juices",150.0,,low,banashankari,"ice cream, desserts, juices"
+Kannadigas Karavali,Banashankari,"Mangalorean, South Indian, North Indian",250.0,,low,banashankari,"mangalorean, south indian, north indian"
+K27 - The Pub,Banashankari,"Chinese, North Indian",1000.0,3.1,medium,banashankari,"chinese, north indian"
+Bengaluru Coffee House,Banashankari,"South Indian, North Indian, Chinese, Street Food",300.0,4.1,low,banashankari,"south indian, north indian, chinese, street food"
+New Mangalore Lunch Home,Banashankari,"Mangalorean, South Indian, North Indian",200.0,3.3,low,banashankari,"mangalorean, south indian, north indian"
+Coffee Bytes,Banashankari,"Fast Food, South Indian",100.0,3.1,low,banashankari,"fast food, south indian"
+Parjanya Chat Zone,Banashankari,"Street Food, Fast Food",200.0,3.3,low,banashankari,"street food, fast food"
+Kwality Wall's Swirl's Happiness Station,Banashankari,"Ice Cream, Desserts",200.0,2.9,low,banashankari,"ice cream, desserts"
+Soms Kitchen & Bakes,Banashankari,"South Indian, North Indian, Continental",400.0,,low,banashankari,"south indian, north indian, continental"
+Banashankari Nati Style,Banashankari,"Biryani, Chinese, South Indian, North Indian",350.0,,low,banashankari,"biryani, chinese, south indian, north indian"
+Ruchi Maayaka,Banashankari,South Indian,100.0,3.3,low,banashankari,south indian
+Mohitesh Hut Roll,Banashankari,"Rolls, North Indian",150.0,,low,banashankari,"rolls, north indian"
+Sri Basaveshwar Jolada Rotti Oota,Banashankari,South Indian,150.0,,low,banashankari,south indian
+Roll Magic Fast Food,Banashankari,"Biryani, Rolls, Chinese",200.0,,low,banashankari,"biryani, rolls, chinese"
+Foodlieious Multi Cuisine,Banashankari,North Indian,100.0,,low,banashankari,north indian
+Thanishka Nati And Karavali Style,Banashankari,"Biryani, Fast Food",400.0,,low,banashankari,"biryani, fast food"
+Swathi Cool Point,Banashankari,"Beverages, Juices",200.0,,low,banashankari,"beverages, juices"
+Kaumudis Juoice,Banashankari,"Beverages, Fast Food, Juices",150.0,,low,banashankari,"beverages, fast food, juices"
+Amma - Manae,Banashankari,South Indian,400.0,,low,banashankari,south indian
+Sri Sai Tiffannies,Banashankari,"South Indian, Chinese",150.0,,low,banashankari,"south indian, chinese"
+Hotel Andhra Speices,Banashankari,Andhra,250.0,,low,banashankari,andhra
+Sri Murari Family Restaurant,Banashankari,Biryani,250.0,,low,banashankari,biryani
+Aramane Donne Biriyani,Banashankari,"South Indian, Biryani",150.0,,low,banashankari,"south indian, biryani"
+Darkolates,Banashankari,Desserts,200.0,,low,banashankari,desserts
+Swaada Healthy Kitchen,Banashankari,"Healthy Food, Juices, Sandwich",350.0,,low,banashankari,"healthy food, juices, sandwich"
+Gawdaru Mane Beriyani,Banashankari,"South Indian, Biryani",300.0,,low,banashankari,"south indian, biryani"
+Melting Melodies,Banashankari,"Pizza, Fast Food",100.0,,low,banashankari,"pizza, fast food"
+New Indraprasta,Banashankari,"South Indian, Beverages",150.0,,low,banashankari,"south indian, beverages"
+Anna Kuteera,Banashankari,"South Indian, North Indian, Chinese",450.0,4.0,low,banashankari,"south indian, north indian, chinese"
+Darbar,Banashankari,"North Indian, Chinese",800.0,3.0,low,banashankari,"north indian, chinese"
+Vijayalakshmi,Basavanagudi,South Indian,200.0,3.9,low,basavanagudi,south indian
+Sri Udupi Food Hub,Jayanagar,"South Indian, North Indian, Chinese, Beverages",500.0,4.1,low,jayanagar,"south indian, north indian, chinese, beverages"
+Udupi Upahar,Banashankari,"South Indian, Chinese, North Indian, Juices",300.0,3.8,low,banashankari,"south indian, chinese, north indian, juices"
+House Of Kebabs,Basavanagudi,"North Indian, Kebab, Biryani, Chinese",650.0,3.8,low,basavanagudi,"north indian, kebab, biryani, chinese"
+Roll N Rock,Kumaraswamy Layout,"Chinese, North Indian, Mughlai, Rolls",400.0,3.8,low,kumaraswamy layout,"chinese, north indian, mughlai, rolls"
+BOX8- Desi Meals,Banashankari,"North Indian, Mughlai, Fast Food",500.0,4.1,low,banashankari,"north indian, mughlai, fast food"
+KFC,Banashankari,"Burger, Fast Food",450.0,3.8,low,banashankari,"burger, fast food"
+Bitez,Banashankari,Fast Food,100.0,,low,banashankari,fast food
+Roll Over,Jayanagar,"Desserts, Ice Cream, Beverages, Fast Food, Sandwich",500.0,4.1,low,jayanagar,"desserts, ice cream, beverages, fast food, sandwich"
+Imperial Restaurant,Mysore Road,"North Indian, Chinese, Biryani, Beverages",750.0,3.7,low,mysore road,"north indian, chinese, biryani, beverages"
+Lassi Shop,Kumaraswamy Layout,"Beverages, Juices, Ice Cream",150.0,3.9,low,kumaraswamy layout,"beverages, juices, ice cream"
+The Fortuna,Kumaraswamy Layout,"North Indian, Chinese",250.0,3.0,low,kumaraswamy layout,"north indian, chinese"
+Wahab,Jayanagar,"North Indian, Mughlai, Chinese",350.0,3.7,low,jayanagar,"north indian, mughlai, chinese"
+Al Diwan Biryanis And More,Basavanagudi,Biryani,300.0,3.3,low,basavanagudi,biryani
+New Gowda's Fried Chicken,Banashankari,Biryani,300.0,3.3,low,banashankari,biryani
+Canton,Jayanagar,"Chinese, Seafood, Biryani",800.0,3.6,low,jayanagar,"chinese, seafood, biryani"
+Diabetics Dezire Sugarless Sweets and Bakes,Basavanagudi,"Desserts, Mithai",300.0,3.3,low,basavanagudi,"desserts, mithai"
+The Blue Wagon - Kitchen,Jayanagar,"Cafe, Beverages",400.0,4.6,low,jayanagar,"cafe, beverages"
+HOT COFFEE,Basavanagudi,"South Indian, Chinese",150.0,4.1,low,basavanagudi,"south indian, chinese"
+Patio 805,Jayanagar,"Thai, Vietnamese, Asian, Chinese",1200.0,4.1,medium,jayanagar,"thai, vietnamese, asian, chinese"
+Lassi Corner,Basavanagudi,"Beverages, Ice Cream",150.0,3.7,low,basavanagudi,"beverages, ice cream"
+Sagar Deluxe,Kumaraswamy Layout,"South Indian, North Indian, Chinese, Juices",300.0,3.2,low,kumaraswamy layout,"south indian, north indian, chinese, juices"
+Kanti Sweets,Banashankari,"Mithai, Street Food",400.0,4.0,low,banashankari,"mithai, street food"
+Vegetalia,Banashankari,"Italian, Pizza",400.0,3.7,low,banashankari,"italian, pizza"
+Aramane Donne Biryani,Banashankari,Biryani,200.0,3.5,low,banashankari,biryani
+Ande Ka Funda,Banashankari,"North Indian, Fast Food, Rolls",250.0,3.8,low,banashankari,"north indian, fast food, rolls"
+Cake Ghar,Basavanagudi,Bakery,400.0,3.8,low,basavanagudi,bakery
+Energy Addaa,Basavanagudi,"Salad, Healthy Food, Sandwich, Juices, Burger, Desserts, Pizza",500.0,4.2,low,basavanagudi,"salad, healthy food, sandwich, juices, burger, desserts, pizza"
+Bhattara Bhojana,Banashankari,South Indian,150.0,3.6,low,banashankari,south indian
+Tandoori Knight,Banashankari,"North Indian, Chinese, Biryani, Kebab",450.0,3.0,low,banashankari,"north indian, chinese, biryani, kebab"
+Dev Sagar - Food Street,Basavanagudi,Street Food,200.0,4.1,low,basavanagudi,street food
+Mitraa Da Pizza,Kumaraswamy Layout,"Fast Food, Pizza",250.0,3.8,low,kumaraswamy layout,"fast food, pizza"
+Paradise Premium,Banashankari,"Biryani, Andhra, Hyderabadi, North Indian",700.0,3.1,low,banashankari,"biryani, andhra, hyderabadi, north indian"
+Grazers,Jayanagar,"Cafe, Burger, Continental, Italian, Desserts",650.0,3.9,low,jayanagar,"cafe, burger, continental, italian, desserts"
+Shakes Theory,Jayanagar,"Beverages, Sandwich",300.0,4.5,low,jayanagar,"beverages, sandwich"
+@Italy,Kumaraswamy Layout,Italian,700.0,4.1,low,kumaraswamy layout,italian
+Chilli Flakes,Banashankari,"Fast Food, Italian, Beverages",500.0,3.6,low,banashankari,"fast food, italian, beverages"
+Calcutta Cafe,Kumaraswamy Layout,"Bengali, Chinese, Sandwich",350.0,3.5,low,kumaraswamy layout,"bengali, chinese, sandwich"
+Old Mumbai Ice Cream,Banashankari,Ice Cream,150.0,3.9,low,banashankari,ice cream
+Donne Biriyani House,Banashankari,"South Indian, North Indian, Chinese, Biryani",400.0,3.9,low,banashankari,"south indian, north indian, chinese, biryani"
+By 2 Coffee,Basavanagudi,South Indian,100.0,3.9,low,basavanagudi,south indian
+Kedia's Fun Food,Jayanagar,"North Indian, Street Food, Juices",200.0,4.3,low,jayanagar,"north indian, street food, juices"
+Davangere Butter Dosa Hotel,Kumaraswamy Layout,South Indian,150.0,3.8,low,kumaraswamy layout,south indian
+Just Shawarma,Kumaraswamy Layout,Arabian,300.0,3.9,low,kumaraswamy layout,arabian
+Mini Punjabi Dhaba,Banashankari,North Indian,350.0,4.2,low,banashankari,north indian
+Mulabagilu Dosa,Basavanagudi,South Indian,100.0,3.6,low,basavanagudi,south indian
+CafÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ© Down The Alley,Banashankari,Cafe,500.0,4.1,low,banashankari,cafe
+Gokul Veg,Basavanagudi,"North Indian, Chinese, Beverages",750.0,3.8,low,basavanagudi,"north indian, chinese, beverages"
+Olive - Era,Kumaraswamy Layout,"BBQ, Arabian, Rolls, Chinese, North Indian, Juices, Kebab, Desserts",550.0,3.3,low,kumaraswamy layout,"bbq, arabian, rolls, chinese, north indian, juices, kebab, desserts"
+Udupi Ruchi,Banashankari,"South Indian, North Indian, Chinese, Street Food",200.0,3.9,low,banashankari,"south indian, north indian, chinese, street food"
+Madhappa Hindu Military Hotel,Banashankari,South Indian,300.0,3.4,low,banashankari,south indian
+Gama Gama,Banashankari,South Indian,200.0,3.9,low,banashankari,south indian
+The Vintage Cafe,Banashankari,"Cafe, French, North Indian",400.0,3.0,low,banashankari,"cafe, french, north indian"

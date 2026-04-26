@@ -1,0 +1,113 @@
+{
+  "dataset_id": "ManikaSaini/zomato-restaurant-recommendation",
+  "dataset_file": "zomato.csv",
+  "edge_case_checklist_run": {
+    "p0_dataset_unavailable_or_throttled": "pass",
+    "p0_schema_drift": "pass"
+  },
+  "profile": {
+    "row_count": 51717,
+    "column_count": 17,
+    "columns": [
+      "url",
+      "address",
+      "name",
+      "online_order",
+      "book_table",
+      "rate",
+      "votes",
+      "phone",
+      "location",
+      "rest_type",
+      "dish_liked",
+      "cuisines",
+      "approx_cost(for two people)",
+      "reviews_list",
+      "menu_item",
+      "listed_in(type)",
+      "listed_in(city)"
+    ],
+    "canonical_mapping": {
+      "restaurant_name": "name",
+      "location": "location",
+      "cuisine": "cuisines",
+      "average_cost_for_two": "approx_cost(for two people)",
+      "rating": "rate"
+    },
+    "missing_canonical_fields": [],
+    "field_stats": {
+      "restaurant_name": {
+        "source_column": "name",
+        "null_count": 0,
+        "null_pct": 0.0,
+        "unique_count": 8792,
+        "sample_values": [
+          "Jalsa",
+          "Spice Elephant",
+          "San Churro Cafe",
+          "Addhuri Udupi Bhojana",
+          "Grand Village"
+        ]
+      },
+      "location": {
+        "source_column": "location",
+        "null_count": 21,
+        "null_pct": 0.04,
+        "unique_count": 93,
+        "sample_values": [
+          "Banashankari",
+          "Banashankari",
+          "Banashankari",
+          "Banashankari",
+          "Basavanagudi"
+        ]
+      },
+      "cuisine": {
+        "source_column": "cuisines",
+        "null_count": 45,
+        "null_pct": 0.09,
+        "unique_count": 2723,
+        "sample_values": [
+          "North Indian, Mughlai, Chinese",
+          "Chinese, North Indian, Thai",
+          "Cafe, Mexican, Italian",
+          "South Indian, North Indian",
+          "North Indian, Rajasthani"
+        ]
+      },
+      "average_cost_for_two": {
+        "source_column": "approx_cost(for two people)",
+        "null_count": 346,
+        "null_pct": 0.67,
+        "unique_count": 70,
+        "sample_values": [
+          "800",
+          "800",
+          "800",
+          "300",
+          "600"
+        ],
+        "parseable_numeric_count": 51371,
+        "numeric_parse_pct": 99.33,
+        "min": 40.0,
+        "max": 6000.0,
+        "mean": 555.432
+      },
+      "rating": {
+        "source_column": "rate",
+        "null_count": 7775,
+        "null_pct": 15.03,
+        "unique_count": 64,
+        "sample_values": [
+          "4.1/5",
+          "4.1/5",
+          "3.8/5",
+          "3.7/5",
+          "3.8/5"
+        ],
+        "parseable_numeric_count": 0,
+        "numeric_parse_pct": 0.0
+      }
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "status": "pass",
+  "edge_case_checklist_run": {
+    "p0_strict_filters_empty_too_often": {
+      "pass": true,
+      "threshold_pct": 60.0,
+      "actual_fallback_pct": 0.0,
+      "cases": [
+        {
+          "location": "Banashankari",
+          "min_rating": 4.0,
+          "fallback_applied": false,
+          "strategy": "strict location + strict rating + semi-strict cuisine + flexible budget"
+        },
+        {
+          "location": "Indiranagar",
+          "min_rating": 4.2,
+          "fallback_applied": false,
+          "strategy": "strict location + strict rating + semi-strict cuisine + flexible budget"
+        },
+        {
+          "location": "Koramangala 5th Block",
+          "min_rating": 4.1,
+          "fallback_applied": false,
+          "strategy": "strict location + strict rating + semi-strict cuisine + flexible budget"
+        },
+        {
+          "location": "BTM",
+          "min_rating": 4.0,
+          "fallback_applied": false,
+          "strategy": "strict location + strict rating + semi-strict cuisine + flexible budget"
+        },
+        {
+          "location": "HSR",
+          "min_rating": 4.3,
+          "fallback_applied": false,
+          "strategy": "strict location + strict rating + semi-strict cuisine + flexible budget"
+        }
+      ]
+    },
+    "p0_fallback_order_correct": {
+      "pass": true,
+      "notes": "Validated that fallback path enters rating relaxation before cuisine widening/global fallback.",
+      "probe_strategy": "rating relaxed + cuisine widened",
+      "step_1_strategy": "rating relaxed",
+      "step_2_strategy": "rating relaxed + cuisine widened"
+    }
+  },
+  "p1_review": {
+    "semi_strict_cuisine_permissiveness": {
+      "status": "pass",
+      "top_10_below_cuisine_floor": 0,
+      "cuisine_floor": 0.2
+    },
+    "budget_flex_overwhelms_relevance": {
+      "status": "partial",
+      "top_10_out_of_budget_count": 7,
+      "budget_band": "low"
+    }
+  },
+  "p2_review": {
+    "case_spacing_location_match": {
+      "status": "partial",
+      "variant_a_count": 0,
+      "variant_b_count": 0
+    }
+  }
+}

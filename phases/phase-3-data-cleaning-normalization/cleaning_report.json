@@ -1,0 +1,65 @@
+{
+  "status": "pass",
+  "dataset_id": "ManikaSaini/zomato-restaurant-recommendation",
+  "dataset_file": "zomato.csv",
+  "canonical_mapping": {
+    "restaurant_name": "name",
+    "location": "location",
+    "cuisine": "cuisines",
+    "average_cost_for_two": "approx_cost(for two people)",
+    "rating": "rate"
+  },
+  "row_counts": {
+    "raw_rows": 51717,
+    "after_canonical_projection": 51717,
+    "after_required_text_fields": 51717,
+    "after_numeric_presence_filter": 51618
+  },
+  "retention_pct": 99.81,
+  "edge_case_checklist_run": {
+    "p0_over_aggressive_cleaning_drops_rows": {
+      "pass": true,
+      "threshold_pct": 70.0,
+      "actual_retention_pct": 99.81
+    },
+    "p0_incorrect_budget_mapping": {
+      "pass": true,
+      "cases": [
+        {
+          "input_cost": 0,
+          "expected": "low",
+          "actual": "low",
+          "pass": true
+        },
+        {
+          "input_cost": 800,
+          "expected": "low",
+          "actual": "low",
+          "pass": true
+        },
+        {
+          "input_cost": 801,
+          "expected": "medium",
+          "actual": "medium",
+          "pass": true
+        },
+        {
+          "input_cost": 2000,
+          "expected": "medium",
+          "actual": "medium",
+          "pass": true
+        },
+        {
+          "input_cost": 2001,
+          "expected": "high",
+          "actual": "high",
+          "pass": true
+        }
+      ]
+    }
+  },
+  "null_stats_after_cleaning": {
+    "rating_null_pct": 19.28,
+    "cost_null_pct": 0.48
+  }
+}
