@@ -22,10 +22,13 @@ logger = logging.getLogger(__name__)
 
 app = FastAPI(title="Restaurant Recommendation API", version="1.0.0")
 
+# Get settings for CORS configuration
+settings = get_settings()
+
 # Add CORS middleware to allow frontend to communicate with backend
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000", "http://127.0.0.1:3000", "http://localhost:3001"],
+    allow_origins=[settings.frontend_url, "http://localhost:3000", "http://127.0.0.1:3000"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],

@@ -82,20 +82,10 @@ This document outlines the complete phase architecture for the Restaurant Recomm
 - **Status**: ✅ Completed
 - **Implementation Target**: `frontend/` with Next.js 14, TypeScript, and Tailwind CSS
 
-### Phase 9 — Deployment using Streamlit (Optional)
-- **Concern**: Single-process Python app for demos and stakeholder previews without Node build or separate SPA host
-- **Approach**:
-  - Secrets via Streamlit secrets (st.secrets) or environment variables
-  - Forms with st.selectbox / st.text_input / st.slider for preferences
-  - st.spinner while model runs
-  - Match empty-state copy from Phase 5
-- **Deployment**: Streamlit Community Cloud (free tier) or Docker image on Render/Fly
-- **Relationship to Phase 7-8**: Complementary - Phase 7 remains the primary UI; Phase 9 ideal for demos and fast sharing without operating Vite + CORS + two deployables. You may implement Streamlit without calling the HTTP API by importing milestone1 directly (duplication of orchestration is acceptable if thin); alternatively call POST /api/v1/recommendations if you want one orchestration path.
-- **UX scope**
-- Forms with st.selectbox / st.text_input / st.slider for location, cuisines, budget, minimum rating, and additional text; st.spinner while the model runs; st.expander for raw JSON or telemetry if useful. Match empty-state copy from Phase 5 where practical.
-- **Exit criteria**: README (or a short docs/streamlit-deploy.md) documents how to run locally (streamlit run …) and how to deploy to Community Cloud (repo layout, secrets names, branch); a reviewer can open the hosted URL and complete one successful recommendation or see an intentional empty state.
-- **Status**: ✅ Completed
-- **Implementation Target**: `phases/phase_9_streamlit_deployment/` (app.py), repo root `streamlit_app.py` (Cloud entrypoint), streamlit and nest-asyncio in requirements.txt, and docs/streamlit-deploy.md.
+### Phase 9 — Deployment using Streamlit (Deprecated)
+- **Status**: ❌ Deprecated
+- **Reason**: Deployment architecture changed to Vercel (frontend) + Render (backend)
+- **Note**: Phase 9 files have been removed from the repository
 
 ### Phase 10 — Hardening and Handoff (Optional but Recommended)
 - **Concern**: Automated tests, comprehensive documentation, cost/latency notes
@@ -111,13 +101,14 @@ This document outlines the complete phase architecture for the Restaurant Recomm
 ## Phase Dependencies
 
 ```
-Phase 0 (Scope) → Phase 1 (Env) → Phase 2 (Data) → Phase 3 (Cleaning) → Phase 4 (Filtering) → Phase 5 (LLM + Frontend) → Phase 6 (API Layer) → Phase 7 (HTTP API) → Phase 8 (Web UI) → Phase 9 (Streamlit) → Phase 10 (Hardening)
+Phase 0 (Scope) → Phase 1 (Env) → Phase 2 (Data) → Phase 3 (Cleaning) → Phase 4 (Filtering) → Phase 5 (LLM + Frontend) → Phase 6 (API Layer) → Phase 7 (HTTP API) → Phase 8 (Web UI) → Phase 10 (Hardening)
 ```
 
 ## Current Status Summary
 
-- **Completed**: Phases 0-10
-- **All phases complete and ready for handoff**
+- **Completed**: Phases 0-8, 10
+- **Deprecated**: Phase 9 (Streamlit deployment - replaced with Vercel/Render)
+- **All active phases complete and ready for handoff**
 
 ## Notes
 

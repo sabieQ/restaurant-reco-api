@@ -17,7 +17,7 @@ Python 3.11 + FastAPI backend with Next.js frontend for AI-assisted restaurant r
 - LLM ranking + explanation with deterministic fallback if LLM calls fail.
 - Modern Next.js frontend with TypeScript and Tailwind CSS.
 - v1 API endpoints with structured logging.
-- Streamlit app for demos and stakeholder previews.
+- Deployed on Vercel (frontend) and Render (backend).
 
 ## Phase Execution Structure
 - Each implementation phase is executed in its own folder under `phases/`.
@@ -57,11 +57,9 @@ cd frontend
 npm install
 ```
 
-### Streamlit (Optional)
-1. Install streamlit and nest-asyncio (already in requirements.txt):
-
+3. Configure local environment (optional - defaults to localhost:8000):
 ```bash
-pip install -r requirements.txt
+echo NEXT_PUBLIC_API_URL=http://localhost:8000 > frontend\.env.local
 ```
 
 ## Run
@@ -79,20 +77,13 @@ npm run dev
 
 The frontend will be available at [http://localhost:3000](http://localhost:3000)
 
-### Streamlit
-```bash
-streamlit run streamlit_app.py
-```
-
-The Streamlit app will be available at [http://localhost:8501](http://localhost:8501)
-
 ## Deployment
 
-### Next.js Frontend
-See `frontend/README.md` for deployment instructions.
-
-### Streamlit
-See `docs/streamlit-deploy.md` for Streamlit Community Cloud deployment instructions.
+See `docs/deployment.md` for complete deployment instructions for:
+- **Backend**: Deploy FastAPI to Render
+- **Frontend**: Deploy Next.js to Vercel
+- **Environment Variables**: Configuration for both platforms
+- **CORS Setup**: Allow frontend domain on backend
 
 ### API Endpoints (v1)
 - `GET /health` - Health check with key configuration status

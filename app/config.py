@@ -25,6 +25,9 @@ class Settings(BaseSettings):
 
     request_timeout_seconds: float = 30.0
 
+    # Frontend URL for CORS
+    frontend_url: str = "http://localhost:3000"
+
 
 @lru_cache(maxsize=1)
 def get_settings() -> Settings:
